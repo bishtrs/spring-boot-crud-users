@@ -49,15 +49,15 @@ Swagger URL: http://localhost:8080/swagger-ui/index.html
 
 ### 1) POST API to create a user
 
-http://localhost:8080/api/v1/users
+http://localhost:8080/api/v1/users  
 
-{
-    "firstName":"John",
-    "lastName":"Bocelli",
-    "email":"john.bocelli@gmail.com"
-}
+{  
+    "firstName":"John",  
+    "lastName":"Bocelli",  
+    "email":"john.bocelli@gmail.com"  
+}  
 
-### 2) GET API to get list of all users
+### 2) GET API to get list of all users  
 
 http://localhost:8080/api/v1/users
 
@@ -69,11 +69,11 @@ http://localhost:8080/api/v1/users/1
 
 http://localhost:8080/api/v1/users/1
 
-{
-    "firstName":"John",
-    "lastName":"Bocelli",
-    "email":"john.bocelli2@gmail.com"
-}
+{  
+    "firstName":"John",  
+    "lastName":"Bocelli",  
+    "email":"john.bocelli2@gmail.com"  
+}  
 
 ### 5) DELETE API to delete a user by id
 
@@ -81,6 +81,7 @@ http://localhost:8080/api/v1/users/1
 
 ## 5. Folder structure
 
-<img width="233" alt="image" src="https://github.com/user-attachments/assets/8286e6fc-e574-4b2f-a62e-77371dbf2364" />
+<img width="224" alt="image" src="https://github.com/user-attachments/assets/73722432-c3e4-48f4-bb3e-129673ce79d8" />
+
 
 
