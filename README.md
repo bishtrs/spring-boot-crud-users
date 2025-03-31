@@ -44,8 +44,11 @@ mvn spring-boot:run
 
 ## 4. Testing
 
-Below API Endpoints can be used for testing APIs using POSTMAN.
+Below API Endpoints can be used for testing APIs using POSTMAN.  
 Swagger URL: http://localhost:8080/swagger-ui/index.html
+
+<img width="498" alt="image" src="https://github.com/user-attachments/assets/fc47fc02-c409-475b-9a5b-906658ee0728" />
+
 
 ### 1) POST API to create a user
 
