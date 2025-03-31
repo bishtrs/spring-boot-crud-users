@@ -7,26 +7,26 @@ This is a sample Spring Boot based REST CRUD User API application.
 ## 2. Tech stack
 
 JDK 17  
-Maven 4.0
-MYSQL 8.0
-Spring Boot 3.3.0
-Spring Data JPA
-Spring Security (Basic Authentication)
-Swagger/OpenAPI
+Maven 4.0  
+MYSQL 8.0  
+Spring Boot 3.3.0  
+Spring Data JPA  
+Spring Security (Basic Authentication)  
+Swagger/OpenAPI  
 
 ## 3. Building and running the application:
 
 ### 1) Create employee database and Users table using below sql ddl
 
-CREATE DATABASE employee;
+CREATE DATABASE employee;  
 
-CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-	first_name VARCHAR(50),
-    last_name VARCHAR(50),
-    email VARCHAR(100) NOT NULL UNIQUE,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+CREATE TABLE users (  
+    id INT AUTO_INCREMENT PRIMARY KEY,  
+	first_name VARCHAR(50),  
+    last_name VARCHAR(50),  
+    email VARCHAR(100) NOT NULL UNIQUE,  
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP  
+);  
 
 ### 2) Clone the repo
 
