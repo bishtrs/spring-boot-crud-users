@@ -60,17 +60,21 @@ http://localhost:8080/api/v1/users
     "email":"john.bocelli@gmail.com"  
 }  
 
+
 ### 2) GET API to get list of all users  
 
 http://localhost:8080/api/v1/users
+
 
 ### 3) GET API to get user by id
 
 http://localhost:8080/api/v1/users/1
 
+
 ### 4) PUT API to update user by id
 
 http://localhost:8080/api/v1/users/1
+
 
 {  
     "firstName":"John",  
@@ -78,9 +82,11 @@ http://localhost:8080/api/v1/users/1
     "email":"john.bocelli2@gmail.com"  
 }  
 
+
 ### 5) DELETE API to delete a user by id
 
 http://localhost:8080/api/v1/users/1
+
 
 ## 5. Folder structure
 
