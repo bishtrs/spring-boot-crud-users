@@ -2,23 +2,23 @@
 
 ## 1. Project Overview 
 
-A simple Spring Boot based REST CRUD application, which is used to read, create, update & delete a User resource.
-It uses MYSQL DB to save User entity while Junit use H2 DB for testing, uses HTTP Basic authentication mechanism for security.
-Also Swagger is configured for API documentation.
+- A Spring Boot-based REST CRUD application for managing user resources.
+- Uses MySQL for database operations and H2 for testing.
+- Implements HTTP Basic authentication and Swagger for API documentation.
 
 ## 2. Tech stack
 
-JDK 17  
-Maven 4.0  
-MYSQL 8.0  
-Spring Boot 3.3.0  
-Spring Data JPA  
-Spring Security (Basic Authentication)  
-Swagger/OpenAPI  
+- JDK 17  
+- Maven 4.0  
+- MYSQL 8.0  
+- Spring Boot 3.3.0  
+- Spring Data JPA  
+- Spring Security (Basic Authentication)  
+- Swagger/OpenAPI  
 
-## 3. Building and running the application:
+## 3. Building and running the application
 
-### 1) Create employee database and Users table using below sql ddl
+### 1) Create employee database and users table using provided SQL DDL.
 
 CREATE DATABASE employee;  
 
@@ -40,55 +40,54 @@ mvn clean package
 
 ### 4) Running the application
 
-mvn spring-boot:run
+mvn spring-boot:run<br/><br/>  
 
-## 4. Testing
+## 4. Swagger URL:  
 
-Below API Endpoints can be used for testing APIs using POSTMAN.  
-Swagger URL: http://localhost:8080/swagger-ui/index.html
+http://localhost:8080/swagger-ui/index.html <br/>
 
-<img width="498" alt="image" src="https://github.com/user-attachments/assets/fc47fc02-c409-475b-9a5b-906658ee0728" />
+<img width="498" alt="image" src="https://github.com/user-attachments/assets/fc47fc02-c409-475b-9a5b-906658ee0728" /><br/><br/>  
 
+### 5. Testing  
 
-### 1) POST API to create a user
+Below API Endpoints can be used for testing APIs using POSTMAN.</br></br>    
 
-http://localhost:8080/api/v1/users  
+-  POST API to create a user
 
-{  
-    "firstName":"John",  
-    "lastName":"Bocelli",  
-    "email":"john.bocelli@gmail.com"  
-}    
+   http://localhost:8080/api/v1/users  
 
-
-### 2) GET API to get list of all users  
-
-http://localhost:8080/api/v1/users  
+   {  
+      "firstName":"John",  
+      "lastName":"Bocelli",  
+      "email":"john.bocelli@gmail.com"  
+   }    
 
 
-### 3) GET API to get user by id
+-  GET API to get list of all users  
 
-http://localhost:8080/api/v1/users/1  
+   http://localhost:8080/api/v1/users  
 
+-  GET API to get user by id
 
-### 4) PUT API to update user by id
+   http://localhost:8080/api/v1/users/1  
 
-http://localhost:8080/api/v1/users/1
+-  PUT API to update user by id
 
+   http://localhost:8080/api/v1/users/1
 
-{  
-    "firstName":"John",  
-    "lastName":"Bocelli",  
-    "email":"john.bocelli2@gmail.com"  
-}    
-
-
-### 5) DELETE API to delete a user by id
-
-http://localhost:8080/api/v1/users/1  
+   {  
+      "firstName":"John",  
+      "lastName":"Bocelli",  
+      "email":"john.bocelli2@gmail.com"  
+   }    
 
 
-## 5. Folder structure
+-  DELETE API to delete a user by id
+
+   http://localhost:8080/api/v1/users/1  
+
+
+## 6. Folder structure
 
 <img width="224" alt="image" src="https://github.com/user-attachments/assets/73722432-c3e4-48f4-bb3e-129673ce79d8" />
 
