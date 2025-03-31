@@ -2,7 +2,7 @@
 
 ## 1. Project Overview 
 
-This is a sample Spring Boot based REST CRUD User API application.
+A simple Spring Boot based REST CRUD application, which is used to read, create, update & delete a User resource.
 
 ## 2. Tech stack
 
