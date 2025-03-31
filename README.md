@@ -3,6 +3,8 @@
 ## 1. Project Overview 
 
 A simple Spring Boot based REST CRUD application, which is used to read, create, update & delete a User resource.
+It uses MYSQL DB to save User entity while Junit use H2 DB for testing, uses HTTP Basic authentication mechanism for security.
+Also Swagger is configured for API documentation.
 
 ## 2. Tech stack
 
@@ -39,3 +41,46 @@ mvn clean package
 ### 4) Running the application
 
 mvn spring-boot:run
+
+## 4. Testing
+
+Below API Endpoints can be used for testing APIs using POSTMAN.
+Swagger URL: http://localhost:8080/swagger-ui/index.html
+
+### 1) POST API to create a user
+
+http://localhost:8080/api/v1/users
+
+{
+    "firstName":"John",
+    "lastName":"Bocelli",
+    "email":"john.bocelli@gmail.com"
+}
+
+### 2) GET API to get list of all users
+
+http://localhost:8080/api/v1/users
+
+### 3) GET API to get user by id
+
+http://localhost:8080/api/v1/users/1
+
+### 4) PUT API to update user by id
+
+http://localhost:8080/api/v1/users/1
+
+{
+    "firstName":"John",
+    "lastName":"Bocelli",
+    "email":"john.bocelli2@gmail.com"
+}
+
+### 5) DELETE API to delete a user by id
+
+http://localhost:8080/api/v1/users/1
+
+## 5. Folder structure
+
+<img width="233" alt="image" src="https://github.com/user-attachments/assets/8286e6fc-e574-4b2f-a62e-77371dbf2364" />
+
+
